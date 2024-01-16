@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* start common shared style here  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    font-family: "Mulish", sans-serif;
+    border: 1px solid orangered;
+    margin: auto;
+}
+
+.btn-praimary {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 18px 35px;
+    border: 0;
+}
+
+.title-praimary {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.description-praimary {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* start navs styles here */
+
+
+
+/* start banners styles here */
+.banner-container {
+    margin: 50px 135px;
+    padding: 106px 185px;
+    background: linear-gradient(to top, #28373a00, rgb(0 0 0 / 87%)), url(../Images/Group-13.png);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-title {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.banner-btn-container {
+
+}
+
+.banner-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width:max-content;
+
+}
+
+.input {
+    padding: 20px 0px 20px 15px;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    font-size: 1rem;
+}
+
+.select {
+    padding: 20px 25px 20px 15px;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+    font-size: 1rem;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* start mobile device styles here */
+@media screen and (max-width: 600px) {
+    .banner-container {
+        margin: 20px;
+        padding: 10px;
+
+    }
+
+    .banner-btn-container {
+        margin: 0 36px 32px;
+       
+    }
+
+    .banner-btns {
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 1.5rem;
+        margin-top: 25px;
+
+    }
+
+    .input {
+        width: 94%;
+        padding: 12px 0px 12px 15px;
+    }
+
+    .banner-btn {
+        width: 100%;
+        padding: 10px 35px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .select {
+        padding: 12px 25px 12px 15px;
+    }
+
+
+}

@@ -403,6 +403,9 @@ nav {
 .simple-p {
     padding: 24px;
 }
+.simple-box{
+    width: 100%;
+}
 
 
 
@@ -718,6 +721,9 @@ footer {
 }
 .simple-p{
     padding: 20px 5px;
+}
+.simple-box{
+    width: 100%;
 }
 
 

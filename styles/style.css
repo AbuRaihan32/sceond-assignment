@@ -262,6 +262,7 @@ body {
 .news-content-box>button {
     width: 100%;
     margin-top: 24px;
+    margin-bottom: 8px;
 
 }
 
@@ -280,13 +281,34 @@ body {
 }
 
 .news-image-box {}
-.news-image-box>img{
+
+.news-image-box>img {
     width: 100%;
 }
 
-.news-image-h3 {}
+.newsletter-image-title {
+    border-radius: 16px;
+    text-align: center;
+    background: #FF5400;
+    width: fit-content;
+    padding: 24px;
+    transform: rotate(-30deg);
+    position: relative;
+    left: 55%;
+    top: -34%;
+}
 
-.news-image-h2 {}
+.news-image-h3 {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.news-image-h2 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+}
 
 
 
@@ -399,5 +421,28 @@ body {
         width: 81%;
     }
 
+    /* start newletter section styles */
+    .news-section-container{
+        flex-direction: column;
+        margin: 25px 20px;
+    }
+    .news-content-box>input{
+        width: 85%;
+    }
+
+    .newsletter-image-title {
+        padding: 15px;
+        left: 56%;
+        top: -94px;
+    }
+
+    .news-image-h3 {
+        font-size: 0.5rem;
+    }
+    
+    .news-image-h2 {
+        font-size: 1rem;
+    }
+    
 
 }

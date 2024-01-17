@@ -95,7 +95,7 @@ nav {
 .banner-container {
     margin: 50px 80px;
     padding: 106px 25px;
-    background: linear-gradient(to top, #28373a00, rgb(0 0 0 / 87%)), url(../Images/Group-13.png);
+    background: linear-gradient(to top, #28373a00, rgb(0 0 0 / 63%)), url(../Images/Group-13.png);
     border-radius: 16px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -423,6 +423,7 @@ nav {
     margin: 100px 80px;
     display: flex;
     gap: 24px;
+    justify-content: center;
 }
 
 .news-content-box {
@@ -495,6 +496,27 @@ nav {
     font-size: 2rem;
     font-weight: 800;
 }
+
+
+/* start sponsors section styles */
+.sponsors-section-container {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.logo-container img {
+    width: 130px;
+    height: 50px;
+}
+
+
 
 
 /* start footer styles here */
@@ -728,8 +750,17 @@ footer {
 
 
 
+.logo-container{
+    flex-direction: column;
+    gap: 50px;
+}
 
-
+.logo-container img{
+    width: 100%;
+}
+.ssss{
+    font-size: 2rem;
+}
 
     /* start newletter section styles */
     .news-section-container {

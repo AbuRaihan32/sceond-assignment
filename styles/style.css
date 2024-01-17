@@ -11,7 +11,7 @@ body {
     max-width: 1440px;
     font-family: "Mulish", sans-serif;
     border: 1px solid orangered;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .btn-praimary {
@@ -280,8 +280,6 @@ body {
     margin-bottom: 15px;
 }
 
-.news-image-box {}
-
 .news-image-box>img {
     width: 100%;
 }
@@ -311,6 +309,46 @@ body {
 }
 
 
+/* start footer styles here */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-container {
+    margin: 50px 135px 0;
+    text-align: center;
+    padding: 110px 100px;
+}
+
+.footer-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer-header-title {
+    color:#131318;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.footer-color-change {
+    color: #FF5400;
+}
+.footer-description{
+    padding: 0 100px;
+}
+
+.socil-area {
+    margin-top: 35px;
+    letter-spacing: 16px;
+    font-size: 2rem;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 50px;
+}
 
 
 
@@ -422,11 +460,12 @@ body {
     }
 
     /* start newletter section styles */
-    .news-section-container{
+    .news-section-container {
         flex-direction: column;
         margin: 25px 20px;
     }
-    .news-content-box>input{
+
+    .news-content-box>input {
         width: 85%;
     }
 
@@ -439,10 +478,24 @@ body {
     .news-image-h3 {
         font-size: 0.5rem;
     }
-    
+
     .news-image-h2 {
         font-size: 1rem;
     }
+    .footer-container{
+        margin: 0px 20px;
+        padding: 35px 0;
+    }
+    .footer-description{
+        padding: 0;
+    }
+    .footer-header-title{
+        font-size: 1.5rem;
+    }
     
+    .footer-header>img{
+        width: 40px;
+    }
+
 
 }

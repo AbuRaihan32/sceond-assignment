@@ -333,6 +333,7 @@ nav{
 
 .news-image-box>img {
     width: 100%;
+    height: 83%;
 }
 
 .newsletter-image-title {
@@ -343,8 +344,8 @@ nav{
     padding: 24px;
     transform: rotate(-30deg);
     position: relative;
-    left: 55%;
-    top: -34%;
+    left: 51%;
+    top: -37%;
 }
 
 .news-image-h3 {
@@ -428,13 +429,14 @@ footer {
 
     /* start banner responsive */
     .banner-container {
-        margin: 20px;
-        padding: 10px;
+        margin: 0 20px;
+        padding: 10px 0px 48px;
 
     }
 
     .banner-btn-container {
-        margin: 0 33px 35px;
+        margin: auto;
+        text-align: -webkit-center;
 
     }
 
@@ -446,6 +448,10 @@ footer {
         font-size: 1.5rem;
         margin-top: 25px;
 
+    }
+    .banner-description{
+        padding: 0 10px;
+        font-size: 0.90rem;
     }
 
     .input {
@@ -541,8 +547,8 @@ footer {
 
     .newsletter-image-title {
         padding: 15px;
-        left: 54%;
-        top: -95px;
+        left: 55%;
+        top: -98px;
     }
 
     .news-image-h3 {
